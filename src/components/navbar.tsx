@@ -66,11 +66,11 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <Typography
           as="a"
-          href="https://waexe.dev/home"
+          href="https://ahidroidev.github.io"
           target="_blank"
           variant="h6"
           color={isScrolling ? "gray" : "white"}  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
-          We are . E X E
+          Society . E X E
         </Typography>
         <ul className={`ml-10 hidden items-center gap-6 lg:flex ${isScrolling ? "text-gray-900" : "text-white"}`}>
           <NavItem>Inicio</NavItem>
