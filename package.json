@@ -3,8 +3,8 @@
   "version": "2.1.0",
   "private": true,
   "author": "DevCrack",
-  "license": "#",
-  "homepage": "#",
+  "license": "MIT",
+  "homepage": "./public",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
