@@ -1,6 +1,6 @@
-# [We are . E X E](http://waexe.dev/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://www.x.com/wa.exe)
+# [Society . E X E]()
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![Status WA EXE](https://uptime.betterstack.com/status-badges/v3/monitor/1526n.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![Status . E X E](https://uptime.betterstack.com/status-badges/v3/monitor/1526n.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
 » FinTech & CyberSecutrity Web and Bank's Services
 
