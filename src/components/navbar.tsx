@@ -79,24 +79,31 @@ export function Navbar() {
           <NavItem href="#">Docs</NavItem>
         </ul>
         <div className="hidden gap-2 lg:flex lg:items-center">
+          
+          <a href="https://www.github.com/ahidroidev" target="_blank" rel="noopener" aria-label="Repositorio GitHub">
           <IconButton
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <i className="fa-brands fa-github text-base" />
           </IconButton>
+          </a>
+          <a href="https://t.me/devcrackpy" target="_blank" rel="noopener" aria-label="Telegram Profile">
           <IconButton
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <i className="fa-brands fa-telegram text-base" />
           </IconButton>
+          </a>
+          <a href="https://www.instagram.com/programameste" target="_blank" rel="noopener" aria-label="Instagram Profile">
           <IconButton
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
+          </a>
           <a href="https://web-society-exe.vercel.app/status" target="_blank" rel="noopener">
             <Button color={isScrolling ? "gray" : "white"} size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               Status

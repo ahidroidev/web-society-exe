@@ -8,6 +8,14 @@ const nextConfig = {
         protocol: "https",
         hostname: "**",
       },
+      experimental,
+      {
+        allowedDevOrigins: [
+          "http://localhost:3000",
+          "https://web-society-exe.vercel.app",
+          "10.43.129.101",
+        ],
+      },
     ],
   },
 };
