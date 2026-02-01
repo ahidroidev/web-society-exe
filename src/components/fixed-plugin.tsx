@@ -7,7 +7,7 @@ export function FixedPlugin() {
     <a href="https://t.me/devcrackpy" target="_blank" rel="noopener noreferrer">
       <Button
         placeholder="" // Fix para Material Tailwind en TS
-        color="white"
+        color="teal"
         size="sm"
         className="!fixed bottom-4 right-4 flex gap-2 pl-2 items-center border border-blue-gray-50 shadow-md" onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
         <Image

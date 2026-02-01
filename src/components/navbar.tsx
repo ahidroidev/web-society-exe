@@ -66,7 +66,7 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <Typography
           as="a"
-          href="https://ahidroidev.github.io"
+          href="https://web-society-exe.vercel.app/"
           target="_blank"
           variant="h6"
           color={isScrolling ? "gray" : "white"}  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
@@ -83,13 +83,13 @@ export function Navbar() {
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
-            <i className="fa-brands fa-twitter text-base" />
+            <i className="fa-brands fa-github text-base" />
           </IconButton>
           <IconButton
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
-            <i className="fa-brands fa-facebook text-base" />
+            <i className="fa-brands fa-telegram text-base" />
           </IconButton>
           <IconButton
             variant="text"
@@ -97,7 +97,7 @@ export function Navbar() {
             size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
-          <a href="https://waexe.dev/status" target="_blank" rel="noopener">
+          <a href="https://web-society-exe.vercel.app/status" target="_blank" rel="noopener">
             <Button color={isScrolling ? "gray" : "white"} size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               Status
             </Button>
@@ -124,16 +124,25 @@ export function Navbar() {
             <NavItem href="#">Docs</NavItem>
           </ul>
           <div className="mt-4 flex items-center gap-2">
+            <a href="https://www.github.com/ahidroidev" target="_blank" rel="noopener" aria-label="Repositorio GitHub">
             <IconButton variant="text" color="gray" size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-              <i className="fa-brands fa-twitter text-base" />
+              <i className="fa-brands fa-github text-base" />
             </IconButton>
+            </a>
+            <a href="https://t.me/devcrackpy" target="_blank" rel="noopener" aria-label="Telegram Profile">
             <IconButton variant="text" color="gray" size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-              <i className="fa-brands fa-facebook text-base" />
+              <i className="fa-brands fa-telegram text-base" />
             </IconButton>
+            </a>
+            <a href="https://www.instagram.com/programameste" target="_blank" rel="noopener" aria-label="Instagram Profile">
             <IconButton variant="text" color="gray" size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
-            <a href="https://waexe.dev/status" target="_blank" rel="noopener">
+            </a>
+            <IconButton variant="text" color="gray" size="sm"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+              <i className="fa-brands fa-instagram text-base" />
+            </IconButton>
+            <a href="https://web-society-exe.vercel.app/status" target="_blank" rel="noopener">
               <Button color="gray" size="sm" className="ml-auto"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                 Status
               </Button>
