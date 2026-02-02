@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  /*experimental: {
-    allowedDevOrigins: [
-      "http://localhost:3000",
-      "https://web-society-exe.vercel.app",
-      "10.43.129.101",
-    ],
-  },*/
+  transpilePackages: ["@material-tailwind/react"],
+  module,
+  exports: {
+    allowedDevOrigins: ["10.43.129.101", "*localhost:3000"],
+  },
   images: {
     unoptimized: true,
     remotePatterns: [

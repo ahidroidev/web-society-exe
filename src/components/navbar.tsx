@@ -1,12 +1,11 @@
 "use client";
 import React from "react";
-import {
-  Navbar as MTNavbar,
-  Collapse,
-  IconButton,
-  Typography,
-  Button,
-} from "@material-tailwind/react";
+
+import { Navbar as MTNavbar } from "@material-tailwind/react/components/Navbar";
+import { Collapse } from "@material-tailwind/react/components/Collapse";
+import { IconButton } from "@material-tailwind/react/components/IconButton";
+import { Typography } from "@material-tailwind/react/components/Typography";
+import { Button } from "@material-tailwind/react/components/Button";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 interface NavItemProps {
